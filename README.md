@@ -13,8 +13,6 @@ Simple & fast JavaScript implementation of [Swot](https://github.com/leereilly/s
 
     npm install swot-simple
 
-## API
-
 ### `isAcademic(email)`
 
 Check an email for whether it is from an educational domain or not.
@@ -33,6 +31,9 @@ Check an email for whether it is from an educational domain or not.
 swot.isAcademic('me@gmail.com'); // false
 swot.isAcademic('lee@harvard.edu'); // true
 ```
+
+
+**Returns** `boolean`, whether the email is educational
 
 
 ### `getInstitutionName(email)`
@@ -54,6 +55,9 @@ and if it is a known educational institution, return its name.
 swot.getInstitutionName('lreilly@cs.strath.ac.uk');
 // "lreilly@cs.strath.ac.uk"
 ```
+
+
+**Returns** `boolean, String`, false, if the email is not educational. otherwise, a string describing the domain.
 
 ## Build Process
 

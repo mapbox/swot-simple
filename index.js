@@ -15,7 +15,7 @@ var blacklist = {
  * Check an email for whether it is from an educational domain or not.
  *
  * @param {String} email a full email address
- * @return {boolean} whether the email is educational
+ * @returns {boolean} whether the email is educational
  * @example
  * swot.isAcademic('me@gmail.com'); // false
  * swot.isAcademic('lee@harvard.edu'); // true
@@ -37,7 +37,7 @@ function isAcademic(email) {
  * and if it is a known educational institution, return its name.
  *
  * @param {String} email a full email address
- * @return {(boolean|String)} false, if the email is not educational.
+ * @returns {(boolean|String)} false, if the email is not educational.
  * otherwise, a string describing the domain.
  * @example
  * swot.getInstitutionName('lreilly@cs.strath.ac.uk');
