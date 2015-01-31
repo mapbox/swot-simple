@@ -1,0 +1,21 @@
+{
+  "name": "swot-simple",
+  "version": "1.0.0",
+  "description": "detect whether an email address is under an edu domain",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": [
+    "swot",
+    "email",
+    "edu"
+  ],
+  "author": "Tom MacWright, Contributors, SWOT originally by Lee Reilly",
+  "license": "ISC",
+  "devDependencies": {
+    "zipfile": "^0.5.7",
+    "tape": "^3.5.0",
+    "progress": "^1.1.8"
+  }
+}
