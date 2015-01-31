@@ -4,7 +4,8 @@
   "description": "detect whether an email address is under an edu domain",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "doc": "dox -r < index.js | doxme"
   },
   "keywords": [
     "swot",
@@ -14,8 +15,18 @@
   "author": "Tom MacWright, Contributors, SWOT originally by Lee Reilly",
   "license": "ISC",
   "devDependencies": {
-    "zipfile": "^0.5.7",
+    "dox": "^0.6.1",
+    "doxme": "^1.4.2",
+    "progress": "^1.1.8",
+    "request": "^2.51.0",
     "tape": "^3.5.0",
-    "progress": "^1.1.8"
+    "zipfile": "^0.5.7"
+  },
+  "dependencies": {
+    "tldjs": "^1.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mapbox/swot-simple.git"
   }
 }
