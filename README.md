@@ -1,5 +1,7 @@
 # swot-simple
 
+[![build status](https://secure.travis-ci.org/mapbox/swot-simple.png)](http://travis-ci.org/mapbox/swot-simple)
+
 Simple & fast JavaScript implementation of [Swot](https://github.com/leereilly/swot)
 
 * only depends on tldjs
