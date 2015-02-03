@@ -41,7 +41,7 @@ function isAcademic(email) {
  * otherwise, a string describing the domain.
  * @example
  * swot.getInstitutionName('lreilly@cs.strath.ac.uk');
- * // "lreilly@cs.strath.ac.uk"
+ * // "University of Strathclyde"
  */
 function getInstitutionName(email) {
     if (typeof email !== 'string') return false;

@@ -53,9 +53,11 @@ and if it is a known educational institution, return its name.
 
 ```js
 swot.getInstitutionName('lreilly@cs.strath.ac.uk');
-// "lreilly@cs.strath.ac.uk"
+// "University of Strathclyde"
 ```
 
+
+**Returns** `boolean,String`, false, if the email is not educational. otherwise, a string describing the domain.
 
 **Returns** `boolean, String`, false, if the email is not educational. otherwise, a string describing the domain.
 
