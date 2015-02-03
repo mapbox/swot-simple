@@ -59,8 +59,6 @@ swot.getInstitutionName('lreilly@cs.strath.ac.uk');
 
 **Returns** `boolean,String`, false, if the email is not educational. otherwise, a string describing the domain.
 
-**Returns** `boolean, String`, false, if the email is not educational. otherwise, a string describing the domain.
-
 ## Build Process
 
 swot's main data is transformed by `build.js`. The list of tlds is transformed
