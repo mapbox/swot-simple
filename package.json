@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test.js",
+    "build": "browserify -s swot index.js | uglifyjs -c -m > swot-simple.js",
     "doc": "dox -r < index.js | doxme"
   },
   "keywords": [
@@ -15,6 +16,7 @@
   "author": "Tom MacWright, Contributors, SWOT originally by Lee Reilly",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^9.0.3",
     "dox": "^0.6.1",
     "doxme": "^1.4.2",
     "progress": "^1.1.8",
@@ -23,7 +25,8 @@
     "zipfile": "^0.5.7"
   },
   "dependencies": {
-    "tldjs": "^1.5.2"
+    "tldjs": "^1.5.2",
+    "uglify-js": "^2.4.16"
   },
   "repository": {
     "type": "git",
