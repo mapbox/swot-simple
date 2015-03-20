@@ -20,11 +20,10 @@
     "dox": "^0.6.1",
     "doxme": "^1.4.2",
     "progress": "^1.1.8",
-    "request": "^2.51.0",
-    "tape": "^3.5.0",
-    "zipfile": "^0.5.7"
+    "tape": "^3.5.0"
   },
   "dependencies": {
+    "glob": "^5.0.3",
     "tldjs": "^1.5.2",
     "uglify-js": "^2.4.16"
   },
