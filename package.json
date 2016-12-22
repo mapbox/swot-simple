@@ -1,5 +1,5 @@
 {
-  "name": "swot-simple",
+  "name": "@mapbox/swot-simple",
   "version": "1.0.0",
   "description": "detect whether an email address is under an edu domain",
   "main": "index.js",
