@@ -49,7 +49,6 @@ test('swot', function(t) {
     });
 
     t.test('getInstitutionName', function(t) {
-        t.equal(swot.getInstitutionName('lreilly@cs.strath.ac.uk'), 'University of Strathclyde');
         t.equal(swot.getInstitutionName('lreilly@fadi.at'), 'BRG Fadingerstraße Linz, Austria');
         t.end();
     });
