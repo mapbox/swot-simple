@@ -16,16 +16,14 @@
   "author": "Tom MacWright, Contributors, SWOT originally by Lee Reilly",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^9.0.3",
-    "dox": "^0.6.1",
-    "doxme": "^1.4.2",
-    "progress": "^1.1.8",
-    "tape": "^3.5.0"
+    "browserify": "^16.2.2",
+    "progress": "^2.0.0",
+    "tape": "^4.9.1"
   },
   "dependencies": {
-    "glob": "^5.0.3",
-    "tldjs": "^1.5.2",
-    "uglify-js": "^2.4.16"
+    "glob": "^7.1.2",
+    "tldjs": "^2.3.1",
+    "uglify-js": "^3.4.0"
   },
   "repository": {
     "type": "git",

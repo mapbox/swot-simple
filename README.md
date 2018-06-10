@@ -13,6 +13,9 @@ Simple & fast JavaScript implementation of [Swot](https://github.com/leereilly/s
 
     npm install swot-simple
 
+## How to use
+The first thing you'll need to do after installation is generate the `swot-data.json` file. You'll need to `cd` into the `/node_modules/swot_simple` directory and run `./build.sh`. Once you've done this, you're ready to roll.
+
 ### `isAcademic(email)`
 
 Check an email for whether it is from an educational domain or not.
@@ -59,8 +62,3 @@ swot.getInstitutionName('lreilly@cs.strath.ac.uk');
 
 **Returns** `boolean,String`, false, if the email is not educational. otherwise, a string describing the domain.
 
-## Build Process
-
-swot's main data is transformed by `build.js`. The list of tlds is transformed
-from the [Ruby](https://github.com/leereilly/swot/blob/master/lib/swot/academic_tlds.rb) to
-[json](tlds.json) by hand.
