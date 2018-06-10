@@ -2,7 +2,7 @@
 
 [![build status](https://secure.travis-ci.org/mapbox/swot-simple.png)](http://travis-ci.org/mapbox/swot-simple)
 
-Simple & fast JavaScript implementation of [Swot](https://github.com/leereilly/swot)
+Simple & fast JavaScript implementation of [Swot](https://github.com/JetBrains/swot)
 
 * only depends on tldjs
 * compiles swot data into a single json file, so bootup is fast
@@ -15,6 +15,8 @@ Simple & fast JavaScript implementation of [Swot](https://github.com/leereilly/s
 
 ## How to use
 The first thing you'll need to do after installation is generate the `swot-data.json` file. You'll need to `cd` into the `/node_modules/swot_simple` directory and run `./build.sh`. Once you've done this, you're ready to roll.
+
+## Methods
 
 ### `isAcademic(email)`
 
