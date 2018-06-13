@@ -23,13 +23,20 @@ var blacklist = {
 function isAcademic(email) {
     if (typeof email !== 'string') return false;
 
-    var parts = email.split('@'),
-        domain = tldjs.getDomain(parts[parts.length - 1]);
-
-    return !!(domain &&
+    var domain = email.trim().toLowerCase().substring(email.indexOf("@") + 1)
+    var parts = domain.split('.')
+    var numberOfSub = parts.length - 2 
+    while (numberOfSub >= 0) {
+        var domain = parts.slice(Math.max(parts.length - (numberOfSub + 2), 0)).join('.')
+        if(!!(domain &&
         blacklist[domain] === undefined &&
         (data[domain] !== undefined ||
-         tlds[tldjs.getPublicSuffix(domain)]));
+         tlds[tldjs.getPublicSuffix(domain)]))) {
+            return true
+        }
+        numberOfSub--
+    }
+    return false
 }
 
 /**

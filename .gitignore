@@ -1,0 +1,9 @@
+node_modules/
+swot-build/
+swot.zip
+
+
+# Auto Generated Files
+swot-data.json
+swot-data-bool.json
+swot-simple.js
